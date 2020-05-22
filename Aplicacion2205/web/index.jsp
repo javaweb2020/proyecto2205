@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>hola que tal</h1>
         <form action="controlador" method="POST"><table border="1">
                 <tbody>
                     <tr>
