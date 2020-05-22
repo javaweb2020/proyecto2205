@@ -13,5 +13,27 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <form action="controlador" method="POST"><table border="1">
+                <tbody>
+                    <tr>
+                        <td>Usuario</td>
+                        <td><input type="text" name="usuario" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input type="text" name="nombre" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Paswword</td>
+                        <td><input type="password" name="password" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar" /></td>
+                        <td><input type="reset" value="Limpiar" /></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
     </body>
 </html>
